@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://agachet:VayNxZcRxW7Qu4nr@ucb.hhmnjm6.mongodb.net/brewTip?retryWrites=true&w=majority&appName=UCB');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/brewtip');
 
 module.exports = mongoose.connection;

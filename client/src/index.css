@@ -67,7 +67,7 @@ code {
 
 #contact
 {
-  background-image: url('./public/event12.jpg');
+  background-image: url('event12.jpg');
  
 background-size:1250px 800px;
 border: transparent;
@@ -178,7 +178,7 @@ footer a:hover {
 color: rgb(32, 29, 29);
  display: flex;
  justify-content: space-between;
- background-image: url('./public/ca phe.png');
+ background-image: url('ca phe.png');
 
  box-shadow: 15px 20px 30px cyan;
  
